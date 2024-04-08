@@ -10,6 +10,7 @@ import HomePage from "./pages/HomePage";
 import MyAdvertisementsPage from "./pages/MyAdvertisementsPage";
 import { AuthProvider } from "./context/AuthContext";
 import CreateAdvertisementPage from "./pages/CreateAdvertisementPage";
+import UpdateAdvertisementPage from "./pages/UpdateAdvertisementPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -40,6 +41,11 @@ function App() {
         {
           path: "/create-advertisement", 
           element: <CreateAdvertisementPage />
+        },
+        
+        {
+          path: "/update-advertisement/:id", 
+          element: <UpdateAdvertisementPage />
         },
       ],
     },

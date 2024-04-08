@@ -41,7 +41,7 @@ function MyAdvertisementsPage() {
           {advertisements.length == 0 ? (
             <p>Még nincs felvéve hirdetés</p>
           ) : (
-            <AdvertisementList advertisements={advertisements} />
+            <AdvertisementList advertisements={advertisements} myAdvertisements={true} />
           )}
         </>
       ) : (
