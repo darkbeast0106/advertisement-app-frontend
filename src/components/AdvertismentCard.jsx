@@ -1,5 +1,10 @@
 import PropTypes from "prop-types";
 
+/**
+ * Hirdetés adatait megjelenítő kártya
+ * @param {object} props A kártya tulajdonsága: megjelenő hirdetés
+ * @returns A kártya komponens
+ */
 function AdvertisementCard(props) {
   const { advertisement } = props;
   const backendURL = import.meta.env.VITE_BACKEND_URL;
