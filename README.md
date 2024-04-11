@@ -2,6 +2,10 @@
 
 Backend: [https://github.com/darkbeast0106/advertisement-app-backend](https://github.com/darkbeast0106/advertisement-app-backend)
 
+## Követelmények
+
+- NodeJS 18
+
 ## Telepítés lépései
 
 - Csomagok telepítése
