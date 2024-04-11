@@ -25,3 +25,9 @@ Backend: [https://github.com/darkbeast0106/advertisement-app-backend](https://gi
   ```sh
   npm run dev
   ```
+
+- Dokumentáció generálása (opcionális)
+  
+  ```sh
+  npm run docs
+  ```
